@@ -1,0 +1,76 @@
+	.nav > li:hover .dropdown-menu {display: block;}
+	body{
+		background-color:white;
+	}
+	.title{
+		font-size:20px;
+		//color:black;
+	}
+	tr:hover{
+		background-color:#eeeeee;
+	}
+	.table{
+		word-break:break-all; 
+		word-wrap:break-all;
+	}
+	td{
+		text-align:left;
+	}
+	.td1{
+		text-align:center;
+	}
+	svg:hover{
+		cursor: hand;
+	}
+	body{
+		-webkit-touch-callout: none;  
+		-webkit-user-select: none;  
+		-khtml-user-select: none;  
+		-moz-user-select: none;  
+		-ms-user-select: none;  
+		user-select: none; 
+	}
+	.rel{
+		/*width:800px;*/
+		/*height:580px;*/
+		margin:0px auto;
+		margin-left:-100px;
+		text-align:center;
+		/* border:1px solid black; */
+	}
+	.imgd{
+		height:400px;
+		/* border:3px solid black; */
+		border-radius:20px;
+		margin:10px 0px;
+		text-align:center;
+		font-size:20px;
+	}
+	.imgdb{
+		height:400px;
+		text-align:center;
+		font-size:20px;
+		border:1px solid black;
+		border-radius:20px;
+	}
+	.img{
+		/* display:none; */
+	}
+	.titlet{
+		text-align:center;
+		font-size:30px;
+		margin-bottom:20px;
+		font-family:΢���ź�;
+	}
+	.btn,.form-control{
+	height:40px;
+	}
+	.sear{
+		width:60%;
+		margin:0 auto;
+	}
+	@media (max-width:420px){
+		.sear{
+			width:45%;
+		}
+	}

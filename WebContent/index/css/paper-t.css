@@ -1,0 +1,96 @@
+.nav > li:hover .dropdown-menu {display: block;}
+.diff{
+	background-color:#337ab7;
+	height:150px;
+	border-radius:10px;
+	opacity:0.5;
+}
+.vali{
+	background-color:#5cb85c;
+	height:150px;
+	border-radius:10px;
+	opacity:0.5;
+}
+.div:hover{
+	opacity:1;
+}
+.p{
+	color:white;
+}
+.ptop{
+	font-size:38px;
+}
+.pp{
+	margin-top:30px;
+	font-size:60px;
+}
+.title {
+	font-size: 30px;
+	color: black;
+}
+
+tr:hover {
+	background-color: #eeeeee;
+}
+
+.table {
+	word-break: break-all;
+	word-wrap: break-all;
+}
+
+td {
+	text-align: center;
+}
+
+.tdp {
+	text-align: left;
+}
+
+#td3 {
+	font-size: 25px;
+	vertical-align:middle;
+} 
+
+#tabhead{
+	vertical-align:middle;
+}
+
+.papertitle{
+	width:600px;
+}
+
+.info {
+	width: 100%;
+	margin-bottom: 100px;
+}
+
+.divp {
+	//text-align: center;
+	font-size: 20px;
+	margin-bottom: 10px;
+}
+
+.divp,.form{
+	margin-left:36%;
+}
+
+@media (max-width:640px){
+	.divp,.form{
+		margin-left:20%;
+	}
+}
+
+@media (max-width:420px){
+	.divp,.form{
+		margin-left:0;
+	}
+}
+
+@media (max-width:1090px){
+	.papertitle{
+		width:500px;
+	}
+}
+.uli:hover{
+	background-color:#eeeeee
+}

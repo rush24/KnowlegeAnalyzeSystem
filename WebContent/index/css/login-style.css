@@ -1,0 +1,144 @@
+/*@import url(http://fonts.useso.com/css?family=Source+Sans+Pro:200,300);*/
+
+body{
+    font-family: 'Source Sans Pro', sans-serif;
+    color: #a9a9a9;
+    font-weight: 300;
+	//background-image:radial-gradient(#28bbe6,white);
+}
+body ::-webkit-input-placeholder {
+    /* WebKit browsers */
+    font-family: 'Source Sans Pro', sans-serif;
+    color: #a9a9a9;
+    font-weight: 300;
+}
+body :-moz-placeholder {
+    /* Mozilla Firefox 4 to 18 */
+    font-family: 'Source Sans Pro', sans-serif;
+    color: #a9a9a9;
+    opacity: 1;
+    font-weight: 300;
+}
+body ::-moz-placeholder {
+    /* Mozilla Firefox 19+ */
+    font-family: 'Source Sans Pro', sans-serif;
+    color: #a9a9a9;
+    opacity: 1;
+    font-weight: 300;
+}
+body :-ms-input-placeholder {
+    /* Internet Explorer 10+ */
+    font-family: 'Source Sans Pro', sans-serif;
+    color: #a9a9a9;
+    font-weight: 300;
+}
+@media (max-width: 600px){
+	.img{
+		display:none;
+	}
+	.rdiv{
+		width:100%;
+	}
+}
+.glyphicon{
+	font-size:100px;
+	position:relative;
+	top:20px;
+	left:-70px;
+	width:800px;
+	width:400px;
+	color:black;
+}
+.welcome{
+	top:100px;
+	font-size:35px;
+	color:#28BBE6;
+}
+.rdiv{
+	border-radius:20px;
+}
+.main{
+	margin:220px auto;
+}
+.img{
+	margin-top:30px;
+}
+.border{
+	border:1px solid rgba(169, 169, 169,1);
+	margin-top:20px;
+	margin-right:139px;
+	width:70%;
+	height:100%;
+	box-shadow:2px 2px 6px #333333;
+	margin:0 auto;
+}
+form{
+    padding: 40px 0;
+    position: relative;
+    z-index: 2;
+}
+form .input{
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearence:none;
+    outline: 0;
+    border: 1px solid rgba(169, 169, 169, 0.4);
+    background-color: rgba(255, 255, 255, 0.2);
+    width: 70%;
+    border-radius: 3px;
+    padding: 10px 15px;
+    margin: 20px auto 20px auto;
+    margin-left:15%;
+    text-align: center;
+    font-size: 20px;
+    color: #28bbe6;
+    -webkit-transition-duration: 0.25s;
+            transition-duration: 0.25s;
+    font-weight: 300;
+}
+form .input:hover{
+    background-color: rgba(223, 223, 223, 0.4);
+}
+form .input:focus{
+    background-color: white;
+    color: #3498DB;
+}
+
+form button{
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    outline: 0;
+    background-color: #28bbe6;
+    border: 0;
+    padding: 10px 15px;
+    color: white;
+    cursor: pointer;
+    border-radius: 3px;
+    font-size: 20px;
+    -webkit-transition-duration: 0.25s;
+            transition-duration: 0.25s;
+    width: 65%;
+    margin: 20px auto 20px auto;
+    display: block;
+    text-align: center;
+    -webkit-transition-duration: 0.25s;
+            transition-duration: 0.25s;
+}
+form button:hover{
+    background-color: #f5f7f9;
+	color:#28bbe6;
+}
+form .radio{
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearence:none;
+    outline: 0;
+    width: 65%;
+    padding: 10px 15px;
+    margin: 20px auto 20px auto;
+    display: block;
+    text-align: center;
+    -webkit-transition-duration: 0.25s;
+            transition-duration: 0.25s;
+}

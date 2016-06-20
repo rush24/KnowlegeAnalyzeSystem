@@ -1,0 +1,8 @@
+.sec {
+	padding-left:20%;
+}
+@media (max-width:360px){
+	.sec{
+		padding-left:8%;
+	}
+}
