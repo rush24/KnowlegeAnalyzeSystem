@@ -1,7 +1,7 @@
 # KnowlegeAnalyzeSystem
 A Web System Through The knowledge Management and Analysis To Help Students Learn Better  
 
-项目地址：[知诸网](http://120.76.121.17:8080/exam/)  
+项目地址：[知诸网](http://120.76.121.17/exam/)  
 
 学生用户测试账号：1128，密码：888888  
 
